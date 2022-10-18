@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-klog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "export ENABLE_LOGS=true && node --es-module-specifier-resolution=node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^8.6.1",
+    "pino-pretty": "^9.1.1"
+  }
+}
